@@ -5,6 +5,8 @@ $(document).ready(function ()
 
 function calculation()
 {
+    event.preventDefault();
+
     //Gather information from the user
 
     let height = parseInt( $("#height").val() );
