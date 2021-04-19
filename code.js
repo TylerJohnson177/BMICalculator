@@ -1,6 +1,6 @@
 $(document).ready(function ()
 {
-    $("button").on("click",calculation);
+    $("form").on("submit",calculation);
 });
 
 function calculation()
